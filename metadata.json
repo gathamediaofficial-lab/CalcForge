@@ -1,0 +1,6 @@
+{
+  "name": "CalcForge",
+  "description": "Precision dark-mode scientific calculator with persistent calculation history and multi-category unit conversions.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
