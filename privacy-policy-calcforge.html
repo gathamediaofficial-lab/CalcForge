@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - CalcForge</title>
+    <style>
+        :root {
+            --bg-color: #f8fafc;
+            --card-bg: #ffffff;
+            --text-primary: #1e293b;
+            --text-secondary: #475569;
+            --accent-color: #2563eb;
+            --border-color: #e2e8f0;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #0f172a;
+                --card-bg: #1e293b;
+                --text-primary: #f1f5f9;
+                --text-secondary: #cbd5e1;
+                --accent-color: #60a5fa;
+                --border-color: #334155;
+            }
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-primary);
+            line-height: 1.6;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            border: 1px solid var(--border-color);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-bottom: 8px;
+            color: var(--text-primary);
+        }
+
+        .last-updated {
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h2 {
+            font-size: 1.3rem;
+            margin-top: 28px;
+            margin-bottom: 12px;
+            color: var(--text-primary);
+        }
+
+        p, ul {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+        }
+
+        ul {
+            padding-left: 24px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .highlight-box {
+            background-color: rgba(37, 99, 235, 0.08);
+            border-left: 4px solid var(--accent-color);
+            padding: 16px;
+            border-radius: 0 8px 8px 0;
+            margin: 20px 0;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 24px;
+            }
+            h1 {
+                font-size: 1.6rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <p class="last-updated"><strong>Effective Date:</strong> November 24, 2026 &nbsp;|&nbsp; <strong>App:</strong> CalcForge</p>
+
+        <div class="highlight-box">
+            <strong>Summary:</strong> CalcForge is designed with privacy first. We do not collect, transmit, sell, or share any of your personal data, calculation history, or health metrics. Everything stays locally on your device.
+        </div>
+
+        <h2>1. Introduction</h2>
+        <p><strong>Gatha Media</strong> ("we," "our," or "us") built the <strong>CalcForge</strong> mobile application as an open-source, privacy-respecting utility app. This Privacy Policy explains how information is handled when you use CalcForge on Android, iOS, or other supported platforms.</p>
+
+        <h2>2. Information We Do Not Collect</h2>
+        <p>CalcForge operates completely offline for its core features. We do <strong>not</strong> collect, store on external servers, or have access to:</p>
+        <ul>
+            <li>Personally Identifiable Information (such as your name, email address, phone number, or location).</li>
+            <li>Financial inputs entered into the Loan, EMI, Tip, Bill Splitter, Discount, or Tax calculators.</li>
+            <li>Health or body metrics entered into the BMI and body fat estimation tools.</li>
+            <li>Device identifiers, advertising IDs, or usage analytics.</li>
+        </ul>
+
+        <h2>3. Local Data Storage on Your Device</h2>
+        <p>To provide a seamless user experience, CalcForge stores certain app data locally on your device's internal storage:</p>
+        <ul>
+            <li><strong>Calculation History:</strong> Your past expressions and results are saved locally using an on-device database (Room Database) so you can search, copy, or reuse them offline. You can clear this history at any time within the app.</li>
+            <li><strong>App Preferences:</strong> Settings such as theme selection (Light/Dark/System), decimal precision, and haptic feedback preferences are saved locally via on-device preferences storage (Jetpack DataStore).</li>
+        </ul>
+        <p>This local data never leaves your device and is permanently deleted if you clear the app's storage or uninstall CalcForge.</p>
+
+        <h2>4. Network &amp; Third-Party Services</h2>
+        <p>CalcForge does not integrate third-party advertising networks, behavioral tracking SDKs, or analytics trackers. If you use optional features that interact with external services (such as checking for app updates via GitHub or fetching live currency exchange rates, if enabled), standard network requests are made solely to retrieve that public data without transmitting personal identifiers.</p>
+
+        <h2>5. App Permissions</h2>
+        <p>CalcForge requires minimal device permissions to function:</p>
+        <ul>
+            <li><strong>Vibration / Haptics:</strong> Used strictly to provide optional tactile feedback when pressing calculator keys.</li>
+            <li><strong>Internet Access (if applicable):</strong> Used solely for optional update checks or currency rate updates.</li>
+        </ul>
+
+        <h2>6. Children's Privacy</h2>
+        <p>CalcForge is safe for users of all ages. Because we do not collect any personal data from any user, we knowingly collect no personal information from children under the age of 13 (or the applicable age of digital consent in your jurisdiction).</p>
+
+        <h2>7. Open-Source Transparency</h2>
+        <p>CalcForge is open-source software licensed under the MIT License. You can inspect the complete source code to verify our privacy practices on our official GitHub repository: <a href="https://github.com/gathamediaofficial-lab/CalcForge" target="_blank" rel="noopener noreferrer">github.com/gathamediaofficial-lab/CalcForge</a>.</p>
+
+        <h2>8. Changes to This Privacy Policy</h2>
+        <p>We may update this Privacy Policy from time to time to reflect app updates or legal requirements. Any changes will be posted on this page with an updated "Effective Date."</p>
+
+        <h2>9. Contact Us</h2>
+        <p>If you have any questions or suggestions regarding this Privacy Policy, please contact us by opening an issue on our <a href="https://github.com/gathamediaofficial-lab/CalcForge/issues" target="_blank" rel="noopener noreferrer">GitHub Issues page</a> or emailing us at: <strong>[Insert Your Contact Email Here]</strong>.</p>
+    </div>
+</body>
+</html>
