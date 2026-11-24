@@ -1,6 +1,7 @@
 # CalcForge 🧮
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-gathamediaofficial--lab%2FCalcForge-blue?logo=github)](https://github.com/gathamediaofficial-lab/CalcForge)
+[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?logo=github)](https://github.com/gathamediaofficial-lab/CalcForge)
+[![Check for Updates](https://img.shields.io/badge/GitHub-Check_for_Updates-2ea44f?logo=github)](https://github.com/gathamediaofficial-lab/CalcForge/releases)
 
 **CalcForge** is a modern, feature-rich Android application designed for scientific calculations, unit conversions, financial planning, date arithmetic, and health tracking. Built using **Jetpack Compose** and **Material 3**, it delivers an intuitive, responsive, and adaptive UI for phones, foldables, and tablets.
 

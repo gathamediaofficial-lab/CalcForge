@@ -137,4 +137,6 @@
     <string name="settings_section_about">About CalcForge</string>
     <string name="about_version">Version 1.0.0</string>
     <string name="about_description">A precision dark-mode scientific calculator engineered for students, scientists, and everyday problem solving. Features a full scientific expression engine, 21-category General, Physics, Chemistry &amp; Currency unit converter, Date &amp; Days calculator, Body Composition metrics, and persistent local history.</string>
+    <string name="settings_github_repo">View on GitHub</string>
+    <string name="settings_check_updates">Check for Updates on GitHub</string>
 </resources>
